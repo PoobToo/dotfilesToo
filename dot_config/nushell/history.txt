@@ -1,0 +1,1237 @@
+clear
+ls
+sf6000
+ls
+fm6000
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth; nvim
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth
+cargo install starship --locked
+sudo pacman -S npm
+sudo pacman -Sy npm
+echo $nu.env-path
+echo $nu.config-path
+vim .config/nushell/env.nu
+nvim .config/nushell/env.nu
+cd Downloads/
+nvim .config/nushell/config.nu
+sudo vim /etc/default/locale
+lf
+nvim /etc/locale.gen
+sudo nvim /etc/locale.gen
+locale -a
+locale-gen
+sudo locale-gen
+locale
+locale -a
+sudo nvim /etc/locale.gen
+sudo locale-gen 
+locale -a
+cat /etc/locale.conf
+Hyprland
+locale
+cat /etc/locale.conf
+locale -a
+sudo su
+nvim .config/nushell/env.nu
+localectl
+cat /etc/environment
+echo "LANG=en_US.UTF-8" | save /etc/environment
+echo "LANG=en_US.UTF-8" | save /etc/environment --append
+echo "LANG=en_US.UTF-8" | sudo save /etc/environment --append
+sudo echo "LANG=en_US.UTF-8" | save /etc/environment --append
+echo "LANG=en_US.UTF-8" | save --append /etc/environment
+echo "LANG=en_US.UTF-8" | sudo save --append /etc/environment
+sudo
+sudo su
+sudo 
+sudo su
+echo "LANG=en_US.UTF-8" | sudo save --append /etc/environment
+sudo su
+localectl 
+locale
+locale -a
+locale
+fm6000
+ls
+ls -a
+cd Downloads/
+yes
+ls
+test
+yes
+no
+what id
+test
+ls
+erry nice
+fm6000 
+l
+ls
+test
+test no
+no err
+test yes
+tet
+test
+ls
+lf
+cd Downloads/
+ls
+fm6000 
+sudo pacman -Sy wl-clipboard
+sudo pacman -S hyprpaper
+hyprpaper
+hyprctl monitors
+hyprpaper
+Hyprland 
+yay -S wired
+wired
+lf
+xdg-mime query .bashrch
+xdg-mime query .bashrc
+xdg-mime query
+xdg-mime query --hlep
+xdg-mime query --help
+xdg-mime query default foo.conf
+xdg-mime query foo.txt
+lf
+nvim .config/wired/wired.conf
+Hyprland
+Hyprland 
+sudo pacman -Rs hyprpaper
+l
+lf
+hyprctl 
+hyprctl clients
+killall wired
+sudo pacman -S python
+pip install
+python get-pip.py
+python Downloads/get-pip.py
+pip
+let-env PATH = ($env.PATH | split row (char esep) | append '/home/leo/.local/bin')
+pip
+pip install notify-py
+notify.py
+notifypy
+notifypy yes
+notifypy --title yes --message noe
+notifypy --title yes --message noe -a joe
+nmtui
+tmtui
+sf6000
+fm6000
+clear
+fm6000
+upower
+cat /org/freedesktop
+cat /org
+cat /sys/class/power_supply/
+cat /sys/class/power_supply/BATT/capacity
+sudo pacman -S libreoffice
+lsblk
+lf
+mount /dev/sda /mnt
+sudo mount /dev/sda /mnt
+sudo mount /dev/sda1 /mnt
+lf
+sudo lf
+cd Downloads/
+unzip -h
+unzip -d `Rhythm Heaven (USA).zip`
+unzip `Rhythm Heaven (USA).zip`
+ls
+unzip `3DS1581 - Rhythm Heaven Megamix (Europe) (En,Fr,De,Es,It).3ds.7z`
+sudo pacman -S 7zip
+yay 7zip
+p7zip
+7z
+7z e `3DS1581 - Rhythm Heaven Megamix (Europe) (En,Fr,De,Es,It).3ds.7z`
+ls
+cp `3DS1581 - Rhythm Heaven Megamix (Europe) (En,Fr,De,Es,It).3ds` /mnt/GAMES/
+sudo cp `3DS1581 - Rhythm Heaven Megamix (Europe) (En,Fr,De,Es,It).3ds` /mnt/GAMES/
+ls
+lf
+umount 
+umount -r
+umount /dev/sda1
+2 + 7
+10 + 5
+7 + 11
+14 - 5
+18 - 12
+killall wired
+notifypy --title yes --message noe -a joe
+Hyprland 
+notifypy --title yes --message noe -a joe
+sudo pacman -Syu
+sudo pacman -R firefox
+sudo pacman -Rs firefox
+sudo pacman -S firefox
+notifypy
+notifypy --title yes --message noe -a joe
+yay elza
+notifypy --title yes --message noe -a Spotify
+notifypy --title DOES THIS MEAN THAT I CANT --message noe -a Spotify
+notifypy --title WHATDOESTHEFUCKS --message noe -a Spotify
+notifypy --title WHATDOESTHEFUCKS --message HOESJASMFUIENGWRII -a Spotify
+notifypy --title WHATDOESTHEFUCKS --message HOESJASMFUIENGWRIIGOOINGOGINGINGING -a Spotify
+yay elza
+yay -S elza
+sudo pacman -S ladybug
+yay ladybug
+sudo pacman -S --needed cmake libgl ninja qt6-base qt6-svg qt6-tools
+fm6000
+yay librewolf
+nmtui
+yay
+yay librewolf
+notifypy --title WHATDOESTHEFUCKS --message HOESJASMFUIENGWRIIGOOINGOGINGINGING -a Spotify
+lf
+sudo lf
+sudo nvim /usr/lib/systemd/system/wired.service
+systemctl enable --now --user wired.service
+systemctl enable wired.service
+notifypy --title WHATDOESTHEFUCKS --message HOESJASMFUIENGWRIIGOOINGOGINGINGING -a Spotify
+systemcctl start wired.service
+notifypy --title WHATDOESTHEFUCKS --message HOESJASMFUIENGWRIIGOOINGOGINGINGING -a Spotify
+systemctl start wired.service
+wired
+notifypy --title WHATDOESTHEFUCKS --message HOESJASMFUIENGWRIIGOOINGOGINGINGING -a Spotify
+sudo nvim /usr/lib/systemd/system/wired.service
+rm /usr/lib/systemd/system/wired.service
+sudo rm /usr/lib/systemd/system/wired.service
+touch /usr/lib/systemd/system/wired.service
+sudo nvim /usr/lib/systemd/system/wired.service
+notifypy --title WHATDOESTHEFUCKS --message HOESJASMFUIENGWRIIGOOINGOGINGINGING -a Spotify
+wired
+sudo wired
+notifypy --title WHATDOESTHEFUCKS --message HOESJASMFUIENGWRIIGOOINGOGINGINGING -a Spotify
+cd $XDG_CONFIG_HOME
+cd $HOME
+cargo-uninstall wired
+sudo pacman -S dunst
+systemctl disable wired
+systemctl enable dunst
+dunst
+notifypy --title WHATDOESTHEFUCKS --message HOESJASMFUIENGWRIIGOOINGOGINGINGING -a Spotify
+bus-send --session --dest=org.freedesktop.DBus --type=method_call \ --print-reply /org/freedesktop/DBus org.freedesktop.DBus.ListNames | grep fire
+bus-send --session --dest=org.freedesktop.DBus --type=method_call \ --print-reply /org/freedesktop/DBus org.freedesktop.DBus.ListNames
+dbus-send --session --dest=org.freedesktop.DBus --type=method_call \ --print-reply /org/freedesktop/DBus org.freedesktop.DBus.ListNames | grep fire
+dbus-send --session --dest=org.freedesktop.DBus --type=method_call \ --print-reply /org/freedesktop/DBus org.freedesktop.DBus.ListNames
+Hyprland 
+clear
+dunst
+Hyprland 
+killall firefox
+killall librewolf
+notifypy --title WHATDOESTHEFUCKS --message HOESJASMFUIENGWRIIGOOINGOGINGINGING -a Spotify
+sudo pacman -S mako
+killall dunst
+notifypy --title WHATDOESTHEFUCKS --message HOESJASMFUIENGWRIIGOOINGOGINGINGING -a Spotify
+mako
+sudo pacman -S falkon
+mako
+dunst
+killall mako
+mako
+killall mako
+dbus-send --session --dest=org.freedesktop.DBus --type=method_call
+dbus-send --session --dest=org.freedesktop.DBus --type=method_call /org/freedesktop.DBus.Listnames
+ dbus-send --session --dest=org.freedesktop.DBus --type=method_call \ --print-reply /org/freedesktop/DBus org.freedesktop.DBus.ListNames 
+ dbus-send --session --dest=org.freedesktop.DBus --type=method_call --print-reply /org/freedesktop/DBus org.freedesktop.DBus.ListNames 
+systemctl status dbus*
+notification-deamon
+systemctl status dbus*
+yay -S xdg-desktop-portal-hyprland-git
+hyprctl notify ye
+hyprctl notify ye no
+hyprctl notify -1 20 0 ok
+dunst
+sudo pacman -S opera
+mako
+dunst
+killall mako
+dunst
+killall dunst
+vim
+Hyprland 
+sudo pacman -Rs opera
+sudo pacman -S libnotify
+sudo pacman -Rs dusnt mako falkon
+sudo pacman -Rs dunst mako falkon
+hyprctl notify -1 20 0 ok
+notifypy --title WHATDOESTHEFUCKS --message HOESJASMFUIENGWRIIGOOINGOGINGINGING -a Spotify
+nvim
+sudo pacman -S neovide
+neovide
+lf
+Hyp
+neovide
+neovide nvim
+Hyprland 
+neovide
+sudo pacman -S xwayland
+sudo pacman -S xorg-xwayland
+env -u WAYLAND_DISPLAY neovide
+neovide
+Hyprland 
+nvim .config/hypr/hyprland.conf
+neo
+neovide
+lf
+sudo lf
+cat /sys/class/power_supply/BATT/capacity
+sudo pacman -S qutebrowser
+cat /sys/class/power_supply/BATT/capacity
+fm6000 
+notifypy --title WHATDOESTHEFUCKS --message HOESJASMFUIENGWRIIGOOINGOGINGINGING -a Spotify
+sudo pacman -Syu
+yay bottles
+sudo pacman -S winetricks
+sh winetricks
+sh winetricks vcrun6sp6
+sudo pacman -Rs bootles
+sudo pacman -Rs botles
+sudo pacman -Rs bootle
+sudo pacman -Rs botle
+sudo pacman -Rs bottles
+sudo pacman -Sy lutris
+sudo pacmanb -Sy
+sudo pacman -Sy
+sudo pacman -S --needed lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader
+lf
+cat /sys/class/power_supply/BATT/capacity
+sudo pacman -S nemo
+killall nemo
+lgf
+fm6000
+sudo pacman -Rs nemo
+notifypy --title WHATDOESTHEFUCKS --message HOESJASMFUIENGWRIIGOOINGOGINGINGING -a Spotify
+notify-send.py "Notification" "Normal urgency"<\n><\n>notify-send.py -u low "Notification" "Low urgency"<\n><\n>notify-send.py -u critical "Notification" "Critical urgency"<\n><\n>notify-send.py -i /usr/share/icons/breeze-dark/status/22/audio-volume-high.svg \<\n>    "Notification" "Appimage / Hintimage"<\n><\n>notify-send.py "Progress" \<\n>    -i /usr/share/icons/breeze-dark/status/22/audio-volume-high.svg \<\n>    --hint int:value:90<\n><\n>notify-send.py "Yes or no?" \<\n>    -i /usr/share/icons/breeze-dark/status/22/audio-volume-high.svg \<\n>    --action Cancel:cancel OK:ok Idk:idk &<\n><\n>notify-send.py "Yes or no?" --action Idk:idk Cancel:cancel OK:ok &<\n>
+notify-send.py "Notification" "Normal urgency"
+notify-send "Notification" "Normal urgency"
+sudo pacman -S spotify
+sudo pacman -S spotify-laucher
+yay spotify
+sudo pacman -S spotify-launcher
+notify-send "Notification" "Normal urgency"
+768/2
+768 / 2
+768 / 2
+144 / 2
+sudo pacman -S hyprpicker
+yay hyprpicker
+hyprpicker -h
+hyprpicker
+hyprpicker -a
+Hyprland 
+hyprpicker -a
+notify-send "Notification" "Normal urgency"
+lsblk
+lf
+sudo mount /dev/sda1 /mnt
+sudo pacman -S ntfs-3g
+lf
+sudo umount /dev/sda1
+lsblk
+notify-send "Notification" "Normal urgency"
+lsblk
+notify-send "Notification" "Normal urgency"
+Hyprland
+notify-send "Notification" "Normal urgency"
+l
+wired
+notify-send "Notification" "Normal urgency"
+wired
+notify-send "Notification" "Normal urgency"
+fm6000
+sudo pacman -Rs librewolf
+fm6000
+cat /sys/class/power_supply/BATT/capacity
+fm6000 -nd
+what
+yes
+fm6000 -nd
+yo
+ls
+clear
+fm6000 
+fm6000 -nd
+ls
+cd Desktop/
+ls
+clear
+cd
+wired
+notify-send "Notification" "Normal urgency"
+killall wired
+notify-send "Notification" "Normal urgency"
+notify-send "Notification" "critical urgency"
+notify-send -help
+notify-send ---help
+notify-send --help
+notify-send -u critical
+notify-send -u critical yes
+notify-send noi eys
+Hyprland 
+sht
+cargo install starship --locked
+$nu.env-path
+vim /home/leo/.config/nushell/env.nu
+mkdir ~/.cache/starship
+starship init nu | save -f ~/.cache/starship/init.nu
+ starship
+vim /home/leo/.config/nushell/env.nu
+$nu.config-path
+vim /home/leo/.config/nushell/config.nu
+lf
+yo
+ls
+cd Desktop/
+ls
+cd
+cd .cargo/
+cd
+cd .config/
+cd hypr/
+ls
+fm 6000
+fm6000 -nd
+starship preset nerd-font-symbols -o ~/.config/starship.toml
+cd Downloads/
+lw
+ls
+clear
+cd
+ls
+sudo su
+clear
+claer
+clear
+starship preset tokyo-night -o ~/.config/starship.toml
+clear
+ls
+cd Desktop/
+ls
+cd
+cd .config/
+cd hypr/
+git
+clear
+false
+deez
+cd
+fm6000 -nd
+what
+damn
+ls
+Y TO
+ls
+clear
+false
+true
+no
+do
+clear
+cd Downloads/
+clear
+cd Desktop/
+starship preset pastel-powerline -o ~/.config/starship.toml
+clear
+\
+starship preset nerd-font-symbols -o ~/.config/starship.toml<\n>
+clear
+cd Desktop/
+lf
+cd /mnt
+cd
+cd .config/
+clear
+cd
+fm6000 -nd
+cd Downloads/
+cd
+clear
+yes
+fm6000 -nd
+notify-send noi eys
+fm6000 -nd
+cava
+cat /sys/class/power_supply/BATT/capacity
+cargo install swww
+yay swww
+wlclipboard
+sudo pacman -S wlclipboard
+sudo pacman -S wl-clipboard
+swww init
+clear
+cd Downloads/
+ls
+cd
+ls
+cd Wallpaper/
+ls
+swww img Wallpaper/black.jpg
+cd
+swww img Wallpaper/black.jpg
+killall swww
+swww kill;
+swww init | swww img Wallpaper/black.jpg
+ls
+clear
+gvim
+wl-paste
+cat /sys/class/power_supply/BATT/capacity
+swww img Wallpaper/CattGreen.png
+swww img Downloads/CATTgreen.png
+Hyprland 
+fm6000 -nd
+clear
+swww -help
+swww img
+swww img Wallpaper/black.jpg --transition-type wipe
+swww img Wallpaper/CattGreen.png t wipe --transition-wave 0.0,0.0,1.0,1.0 --transition-duration .8 --transition-step 255 --transition-fps 60 
+swww img t wipe --transition-wave 0.0,0.0,1.0,1.0 --transition-duration .8 --transition-step 255 --transition-fps 60 Wallpaper/CattGreen.png
+swww img Wallpaper/CattGreen.png -t wipe --transition-wave 0.0,0.0,1.0,1.0 --transition-duration .8 --transition-step 255 --transition-fps 60 
+swww img Wallpaper/black.jpg -t wipe --transition-wave 0.0,0.0,1.0,1.0 --transition-duration .8 --transition-step 255 --transition-fps 60 
+swww img Wallpaper/CattGreen.png -t wipe --transition-wave 0.0,0.0,1.0,1.0 --transition-duration .8 --transition-step 255 --transition-fps 60 
+swww img Wallpaper/black.jpg -t wipe --transition-wave 0.0,0.0,1.0,1.0 --transition-duration .8 --transition-step 255 --transition-fps 60 
+Hyprland 
+swww kill
+swww img Wallpaper/CattGreen.png -t wipe --transition-wave 0.0,0.0,1.0,1.0 --transition-duration .8 --transition-step 255 --transition-fps 60 
+swww 
+swww init
+swww clear
+swww img Wallpaper/CattGreen.png -t wipe --transition-wave 0.0,0.0,1.0,1.0 --transition-duration .8 --transition-step 255 --transition-fps 60 
+Hyprland 
+HY
+cat /sys/class/power_supply/BATT/capacity
+ls
+clear
+ls
+clear
+er
+clear
+ls
+has
+clear
+sa
+swas
+clear
+yes
+vclear
+clear
+cd Downloads/
+ls
+clear
+fm6000 -nd
+lsblk
+mount /dev/sda1 /mnt
+sudo mount /dev/sda1 /mnt
+sudo pacman -S unzip
+lf
+sudo lf
+cd Downloads/
+unzip `Mario & Luigi - Bowser's Inside Story (USA) (En,Fr,Es).zip`
+unzip `Mario & Luigi - Partners in Time (USA) (Rev 1).zip`
+sudo lf
+sudo umount /dev/sda1
+lsblk
+cat /sys/class/power_supply/BATT/capacity
+clear
+ls
+lf
+crigne
+fm6000 
+fm6000 -nd
+clear
+fm6000 -nd
+fm6000 -nd
+sudo pacman -Syu
+cat /sys/class/power_supply/BATT/capacity
+waybar]
+waybar
+clear
+sudo pacman -Rs qutebrowser 
+sudo pacman -S bash-completion
+clear
+pacman -Q waybar
+sudo pacman -Rs waybar
+yay waybar
+fm6000 -nd
+pacman -Q
+hyprpicker -a
+waybar
+hyprpicker -a
+cat /sys/class/power_supply/BATT/capacity
+waybar
+hyprpicker -a
+sudo usermod -a -G input leo
+waybar
+waybae
+waybar
+sudo pacman -S nomacs
+yay nomacs
+sudo pacman -R blas cblas cdparanoia
+sudo pacman -R blas cblas cdparanoia freeglut gd glu graphene gst-plugins-base hwloc jasper lapack libdc
+sudo pacman -R blas cblas cdparanoia freeglut gd glu graphene gst-plugins-base hwloc jasper lapack libdc1394
+sudo pacman -R blas cblas cdparanoia freeglut gd glu graphene gst-plugins-base hwloc jasper lapack libdc1394 libde265 libexif libgphoto2 libheif onetbb protobuf exiv2 libraw opencv qt5-svg qt5-tools quazip
+sudo pacman -R blas cblas cdparanoia freeglut gd glu graphene gst-plugins-base hwloc jasper lapack libdc1394 libde265 libexif libgphoto2 libheif onetbb protobuf exiv2 libraw opencv qt5-svg qt5-tools quazip-qt5
+cargo install oculante
+sudo pacman -Sy
+sudo pacman -Syu
+lf
+ls Downloads/
+cd Downloads/
+chmod +x oculante_linux
+ls oculante_linux
+ls -a oculante_linux
+lf
+oculante
+cargo install oculante
+cd Wallpaper/
+cat /sys/class/power_supply/BATT/capacity
+lsblk
+sudo mount /dev/sda1 /mnt
+sudo umount /dev/sda1
+lsblk
+sudo mount /dev/sda1 /mnt
+lf
+sudo umount /dev/sda1
+lsblk
+nmcli
+killall NetworkManager
+cat /sys/class/power_supply/BATT/capacity
+ls 
+help
+clear
+fm6000 -nd
+neovide
+ping google.com
+yes
+cd Downloads/
+cd Desktop/
+el pabo
+no
+ls 
+hyprpicker -a
+waybar
+waybar 
+yay
+cat /sys/class/power_supply/BATT/capacity
+waybar 
+ls
+cd Desktop/
+waybar 
+hyprctl clients
+waybar 
+hyprctl clients
+waybar 
+ls Desktop/
+cd Desktop/
+btop
+top
+waybar 
+hyprpicker -a
+waybar 
+cat /sys/class/power_supply/BATT/capacity
+swaynag
+hyprctl notify -1 10000 "rgb(ff1ea3)" "Hello everyone!"
+yay -S wlogout
+wlogout
+waybar 
+df
+waybar 
+hyprpicker -a
+waybar 
+waybar
+qjackctl
+sudo pacman -Sy qjackctl
+sudo pacman -Q gtk
+sudo pacman -Q
+sudo pacman -Q | grep gtk
+sudo pacman -R gtk3
+sudo pacman -Sy helvium
+sudo pacman -Sy qjackctl
+waybar
+hyprpicker -a
+waybar
+sudo pacman -S cava
+yay cava
+waybar
+sudo pacman -S iniparser fftw3
+sudo pacman -S iniparser fftw
+yay waybar
+waybar
+pacman -Q waybar
+cava-git
+cava
+sudo pacman -R cava
+sudo pacman -R waybar
+sudo pacman -R waybar-hyprland-git
+yay waybar
+nvim
+lf
+nvim
+lf
+cd ye/
+ls
+mv mkpkg PKGBUILD
+ls
+makepkg
+yay waybar
+lf
+waybar
+waybar
+sudo modprobe snd_aloop
+cava
+sudo pacman -S cava
+sudo pacman -Sy cava
+yay cava
+cava
+modprobe snd_loop
+sudo pacman -Syu
+reboot now
+cava
+sudo pacman -S linux
+cava
+sudo modprobe snd_aloop
+waybar
+sudo pacman -R waybar-hyprland-git
+sudo pacman -Q | grep waybar
+sudo pacman -R waybar-hyprland-cava-git
+sudo pacman -R cava-git
+yay cava
+yay waybar
+waybar
+cava
+cava -help
+cava -p /home/leo/.config/cava/config
+cava
+spotify
+cava
+waybar
+cat /sys/class/power_supply/BATT/status
+fm6000 -nd
+neofetch
+way
+waybar
+spo
+lspci 
+nmcli
+waybar
+playerctl
+waybar
+btop
+waybar 
+bluez
+sudo pacman -S bluez
+bluetoothctl
+sudo pacman -S bluez-utils
+bluetoothctl
+systemctl start bluetooth
+waybar 
+bluetoothctl
+systemctl stop bluetooth
+systemctl start bluetooth
+waybar 
+bluetoothctl
+systemctl stop bluetooth\
+bluetoothctl
+systemctl stop bluetooth
+waybar 
+Hyprland 
+yay wluma
+cargo install wluma
+fm6000 -nd
+yay wluma
+wluma
+usermod
+usermod -aG leo video
+usermod -aG video leo
+sudo usermod -aG video leo
+wluma
+lf
+ls /sys/class/backlight/
+ls /sys/bus/iio/devices/
+wluma 
+wluma RUST_BACKTRACE=1
+ls /sys/bus/iio/devices/
+ls /sys/bus/iio/
+yay libiio
+ls /sys/bus/iio/devices/
+wluma
+ls /sys/bus/iio/devices/
+ls /sys/bus/iio/
+ls /sys/bus/iio/drivers/
+iio
+iio_info
+sudo pacman -Rs libiio
+hyprctl monitors
+wluma
+killall wluma
+wluma 
+wluma
+wluma --verbose
+Hyprland 
+Hyprland 
+wluma --verbose
+wluma
+Hyprland 
+wluma 
+wluma
+Hyprland 
+RUST_BACKTRACE=full RUST_LOG=debug wluma
+yay
+swww
+Hyprland 
+swww img Wallpaper/CattGreen.png -t wipe --transition-wave 0.0,0.0,1.0,1.0 --transition-duration .8 --transition-step 255 --transition-fps 60 
+wluma
+Hyprland 
+wluma
+Hyprland 
+clear
+sudo pacman -Rs wluma
+pacman -Q | grep luma
+sudo pacman -Rs wluma-git
+yay
+yay wluma
+wluma
+Hyprland 
+cat /tmp/hypr/$(ls -t /tmp/hypr/ | head -n 2 | tail -n 1)/hyprland.log
+cat /tmp/hypr/$(ls -t /tmp/hypr/ | head -n 1)/hyprland.log
+wluma
+swww img Wallpaper/CattGreen.png -t wipe --transition-wave 0.0,0.0,1.0,1.0 --transition-duration .8 --transition-step 255 --transition-fps 60 
+sudo pacman -Q | grep wluma
+sudo pacman -Rs wluma
+sudo pacman -S brightnessctl
+brightness ctl
+brightnessctl
+brightnessctl help
+brightnessctl --help
+brightnessctl s 50
+killall waybar
+waybar
+bluetoothctl
+systemctl start bluetooth
+systemctl enable bluetooth
+bluetoothctl
+systemctl start bluetooth
+bluetoothctl
+waybar
+systemctl disable bluetooth
+killall waybar
+bluetoothctl power on
+waybar
+sudo pacman -R rofi
+sudo pacman -Rs rofi
+yay tofi
+tofi -drun
+tofi
+tofi-drun
+libreoffice --calc
+tofi-run
+Hyprland 
+Hy
+tofi-drun
+killall togi
+killall tofi
+tofi
+librewold
+librewolf
+tofi -drun
+tofi-drun
+tofi-run
+killall tofi
+killall tofi-rin
+killall tofi-run
+set $drun tofi-drun --drun-launch=true
+tofi-drun --drun-launch=true
+yay
+pacman -Q | grep hypr
+yay hyprland-git
+sudo pacman -Rs xdg-desktop-portal-hyprland-git
+yay hyprland-git
+Hyprland
+top
+bluetoothctl power off
+Hyprland
+swww query
+lf
+cd Wallpapers/
+cd scripts/
+cd Wallpapers/scripts/
+Green.nu
+chmod +x Green.nu
+Green.nu
+nu Green.nu
+run-external Green.nu
+nu Green.nu
+Green
+Green.sh
+ls
+./Green.sh
+bluetoothctl power off
+bluetoothctl
+bluetoothctl power on
+27.96+29.71+6+14.56
+27.96 + 29.71 + 6 + 14.56
+78.30 + 15
+78.30 + 12
+100/15
+100 / 15
+98 * .4975
+98 * 0.4975
+98 * 0.4975 * .3
+80 * 0.4975 * .3
+85 * 0.4975 * .3
+systemctl start bluetooth
+bluetoothctl power on
+bluetoothctl power off
+Hyprland
+bluetoothctl power on
+systemctl enable bluetooth
+bluetoothctl power off
+we
+were
+clear
+nvim
+damn
+mkdir ~/.cache/starship<\n>starship init nu | save -f ~/.cache/starship/init.nu<\n>
+$nu.config-path
+yes
+lf
+i dont need pading
+ok
+yes
+ls
+one more time
+no
+el pabo
+fm6000 -nd
+hyprctl animations
+hyprctl help
+hyprctl getoption 
+hyprctl getoption animation
+hyprctl getoption overshot
+hyprctl getoption env
+hyprctl getoption
+hyprctl getoption all
+hyprctl -j animations
+hyprctl -j getoption
+hyprctl -j getoption animations:windows
+hyprctl -j getoption animations:
+hyprctl -j getoption animations:enabled
+hyprctl -j getoption animations:animation
+hyprctl -j getoption animations:bezier
+hyprctl reload
+Hyprland
+vim /home/leo/.config/hypr/hyprland.conf
+Hyprland
+waybar
+wayvar
+waybar
+sudo modprobe snd_aloop
+waybar\
+waybar
+cava
+waybar
+bluetoothctl power off
+neovide
+env
+env -u WAYLAND_DISPLAY neovide
+Hyprland
+hyprctl clients
+lf
+sudo pacman -S waylock
+sudo pacman -Rs watlock
+sudo pacman -Rs waylock
+clear
+bluetoothctl power off
+yay
+Hyprland
+help
+ls
+ls
+neo
+yay swaylock effects
+sudo pacman -Rs waylock
+ip conf
+kill yourself
+bluetoothctl power off
+sudo pacman -S obs-studio
+sudo pacman -Syu obs-studio
+nmtui
+fm6000 -nd
+sudo pacman -Syu obs-studio
+yay 
+yay xdg-desktop-portal
+pacman -Q | grep xdg-desktop-portal
+Hyprland
+waybar
+yay
+fmt
+waybar
+sudo pacman -S fmtlib
+yay fmtlib
+yay fmt
+waybar
+yay waybar
+waybar
+yay
+Hyprland
+obs
+my fucking pc broke twice trhying to get obs to work :)
+bluetoothctl power off
+bluetoothctl power on
+sudo pacman -S mpv
+I BROKE MY COMPUTER TWICE WHILE
+I BROKE MY COMPUTER TWICE WHILE TRYING TO MAKE OBS WORK :0
+TF
+i broke my pc twice while trying to get obs to work :0
+ls
+fm 6000
+fm6000 -nd
+no menu see
+bluetoothctl power off
+ping go
+sudo pacman -S firefox
+sudo pacman -Sy firefox
+sudo pacman -S firefox
+bluetoothctl power on
+bluetoothctl
+bluetoothctl power off
+cat /sys/class/power_supply/BATT/status
+bluetoothctl power on
+alsa
+alsamixer
+sudo pacman -Sy alsa-mixer
+pamixer
+pacman -Q | grep wire
+wireplumber
+wpctl
+wpctl status
+wpctl -h
+wpctl staus -h
+wpctl staus | -h
+wpctl
+wpctl status -h
+wpctl status
+bluetoothctl power off
+Hyprland
+wpctl status
+wpctl
+wpctl inspect 49
+wpctl
+wpctl set-volume 49 .3
+wpctl status
+bluetoothctl power off
+mkdir Fall23
+cd Fall23/
+ls
+mkdir CIS204
+cd CIS204/
+touch test.c
+l
+ls
+cd Fall23/CIS204/
+clear
+c
+cd
+clea
+clear
+cd Fall23/CIS204/
+test.c
+./test.c
+chmod +x test.c
+./test.c
+c
+test.c
+gcc -o test test.c
+test
+./test
+gcc -o test test.c
+./test
+gcc -o test test.c
+./test
+sudo pacman -Sy bash-completion
+sudo pacman -Sy ttf-ms-win11-auto
+yay ttf-ms-win11-auto
+bluetoothctl power on
+pacman -Q | swaylock
+pacman -Q | grep swaylock
+swaylock-effects
+swaylock \<\n>	--screenshots \<\n>	--clock \<\n>	--indicator \<\n>	--indicator-radius 100 \<\n>	--indicator-thickness 7 \<\n>	--effect-blur 7x5 \<\n>	--effect-vignette 0.5:0.5 \<\n>	--ring-color bb00cc \<\n>	--key-hl-color 880033 \<\n>	--line-color 00000000 \<\n>	--inside-color 00000088 \<\n>	--separator-color 00000000 \<\n>	--grace 2 \<\n>	--fade-in 0.2
+swaylock<\n>	--screenshots <\n>	--clock <\n>	--indicator <\n>	--indicator-radius 100 <\n>	--indicator-thickness 7 <\n>	--effect-blur 7x5 <\n>	--effect-vignette 0.5:0.5 <\n>	--ring-color bb00cc <\n>	--key-hl-color 880033 <\n>	--line-color 00000000 <\n>	--inside-color 00000088 <\n>	--separator-color 00000000 <\n>	--grace 2 <\n>	--fade-in 0.2
+swaylock --screenshots
+swaylock --screenshots --clock --indicator
+swaylock --screenshots --clock --indicator --effect-blur 7x5
+swaylock --screenshots --clock --indicator --effect-blur 7x5 --fade-in 0.2
+sudo pacman -Sy hyprshot
+yay hyprshot
+hyprshot -h
+hyprshot
+hyprshot -m region
+bluetoothctl power on
+bluetoothctl
+clear
+bluetoothctl power on
+bluetoothctl scan
+cat /sys/class/power_supply/BATT/status
+bluetoothctl power off
+cd Fall23/CIS204/
+gcc -o Favorites Favorites.c
+chmod +x Favorites
+./Favorites
+cd Fall23/CIS204/
+gcc -o Favorites Favorites.c
+./Favorites
+gcc -o Favorites Favorites.c
+./Favorites
+yay
+fm6000 -nd
+16.26+12.91+5.73
+16.26 + 12.91 + 5.73
+bluetoothctl power off
+64/2.5
+64 / 2.5
+nmcli
+cat /sys/class/power_supply/BATT/status
+lf
+unzip
+cd Downloads/
+unzip `ISV Royalty EULAs (English)(December2022)(Protected).zip`
+cd Fall23/CIS204/
+ls
+./Favorites
+lsblk
+sudo mount /dev/sda1 /mnt
+lf
+sudo umount /dev/sda1
+sudo umount /dev/sda2 /mnt
+sudo mount /dev/sda2 /mnt
+lf
+sudo umount /mnt
+sudo pacman -S python
+lf
+cd Fall23/CYB125/
+python test.py
+bluetoothctl power off
+ls
+rm test.py
+cd Fall23/CIS204/
+gcc -o debugTwo.c
+gcc -o debugTwo.c debugTwo
+gcc -o debugTwo debugTwo.c
+ls
+gcc -o debugTwo debugTwo.c
+t
+cd Fall23/CIS204/
+gcc -o debugTwo debugTwo.c
+chmod +x debugTwo
+./debugTwo
+gcc -o debugTwo debugTwo.c
+./debugTwo
+gcc -o debugTwo debugTwo.c
+./debugTwo
+gcc -o debugTwo debugTwo.c
+./debugTwo
+sudo pacman clamav
+sudo pacman -Sy clamav
+clamscan
+sudo clamscan
+clamscan -h
+freshclam
+sudo freshclam
+sudo clamscan
+clamscan -h
+cd
+ls
+sudo clamscan --follow-dir-symlinks=1
+fm6000 -nd
+sudo pacman -Syu
+yay
+sudo pacman -Rs waybar-hyprland-cava-git
+yay
+sudo pacman -Rs librewolf
+sudo pacman -Rs librewolf-git
+sudo pacman -Q | grep libre
+sudo pacman -Rs librewolf-bin
+yay waybar
+sudo pacman -Syu
+killall waybar
+waybar
+pacman -Q | grep waybar
+cd Fall23/CYB125/
+python LeonardoSotoPE2.py
+cd Fall23/CYB125/
+python LeonardoSotoPE2.py
+cat /sys/class/power_supply/BATT/status
+waybar
+Hyprland
+bluetoothctl power off
+cat /sys/class/power_supply/BATT/status
+bluetoothctl power off
+cd Fall23/CYB125/
+python `LeonardoSoto Decision Structures PE2.py`
+python `LeonardoSoto Decision Structures PE1.py`
+python `LeonardoSoto Decision Structures PE1.py`1
+python `LeonardoSoto Decision Structures PE1.py`
+cd Fall23/CIS204/
+ls
+touch cylinder.c
+gcc -olm cylinder cylinder.c
+gcc -olm cylinder.c cylinder
+gcc -lm cylinder cylinder.c
+gcc -o cylinder cylinder.c
+cd Fall23/CIS204/
+ls
+gcc -o cylinder cylinder.c
+gcc -olm cylinder cylinder.c
+gcc -olm cylinder.c
+gcc help
+gcc -help
+gcc -h
+man gcc
+sudo pacman -Sy man
+man gcc
+gcc -o cylinder cylinder.c
+rm -rf ~/.config/nvim<\n>rm -rf ~/.local/share/nvim
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1, nvim
+cd Fall23/CIS204/
+gcc -o cylinder cylinder.c
+gcc cylinder.c -lm -o cylinder
+chmod +x cylinder
+./cylinder
+gcc cylinder.c -lm -o cylinder
+./cylinder
+gcc cylinder.c -lm -o cylinder
+./cylinder
+gcc cylinder.c -lm -o cylinder
+./cylinder
+gcc cylinder.c -lm -o cylinder
+./cylinder
+gcc cylinder.c -lm -o cylinder
+./cylinder
+gcc cylinder.c -lm -o cylinder
+./cylinder
+gcc cylinder.c -lm -o cylinder
+./cylinder
+2^8
+2 ^ 8
+2**8
+2 ** 8
+8 ** 81
+5 ** 3
+3 ** 2
+-8.6 + 7.6
+-11.9 + 9.5
+4 ** 2
+3 ** 2
+5.0 * 2.5
+3.2 * 4
+17 /2
+17 / 2
