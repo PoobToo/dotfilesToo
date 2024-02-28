@@ -98,6 +98,7 @@
     git
     cargo
     gcc
+    nodejs
   ];
 
   # Some programs need SUID wrappers, can be configured further or are

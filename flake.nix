@@ -1,32 +1,36 @@
 {
-   description = "The first one";
+  description = "The first one";
 
-   inputs = {
-      nixpkgs.url = "nixpkgs/nixos-23.11";
-      home-manager.url = "github:nix-community/home-manager/release-23.11";
-      home-manager.inputs.nixpkgs.follows = "nixpkgs";
-   };
+  inputs = {
+    nixpkgs.url = "nixpkgs/nixos-23.11";
 
-   outputs = {self, nixpkgs, home-manager, ...}:
-   let
+    home-manager = {
+      url = "github:nix-community/home-manager/release-23.11";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
+  };
+
+  outputs = { self, nixpkgs, home-manager, ... }@inputs:
+    let
       lib = nixpkgs.lib;
       system = "x86_64-linux";
-      pkgs = nixpkgs.legacyPackages.${system};
-   in
-   {
+    in
+    {
       nixosConfigurations = {
-         radish = lib.nixosSystem {
-            inherit system;
-            modules = [./configuration.nix];
-         };
+        radish = lib.nixosSystem {
+          inherit system;
+          modules = [ ./configuration.nix ];
+        };
       };
       homeConfigurations = {
-         leo = home-manager.lib.homeManagerConfiguration {
-            inherit pkgs;
-            modules = [ ./home.nix ];
-         };
+        leo = home-manager.lib.homeManagerConfiguration {
+          pkgs = import nixpkgs { inherit system; };
+          extraSpecialArgs = { inherit inputs; };
+          modules = [ ./home.nix ];
+        };
       };
-   };
+    };
 
 
 }
