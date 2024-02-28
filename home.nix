@@ -12,10 +12,18 @@
     stateVersion = "23.11";
     packages = [ ];
     sessionVariables = {
-      EDITOR = "vim";
+      EDITOR = "nvim";
       XCUSRSOR_SIZE = 36;
     };
+    pointerCursor = {
+      gtk.enable = true;
+      x11.enable = true;
+      package = pkgs.bibata-cursors;
+      name = "Bibata-Original-Classic";
+      size = 28;
+    };
   };
+  gtk.cursorTheme.size = "100";
 
   programs.home-manager.enable = true;
 }
