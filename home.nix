@@ -12,7 +12,7 @@
     stateVersion = "23.11";
     packages = [ ];
     sessionVariables = {
-      EDITOR = "nvim";
+      EDITOR = "vim";
       XCUSRSOR_SIZE = 36;
     };
   };

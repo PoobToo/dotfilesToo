@@ -34,7 +34,7 @@
         workspace_swipe = true;
       };
 
-      # Stolen straight from Alyur cuz I couldnt make a better solution myself
+      # Regular bindings
       bind =
         let
           binding = mod: cmd: key: arg: "${mod}, ${key}, ${cmd}, ${arg}";
@@ -47,9 +47,19 @@
           "SUPER, Q, killactive"
           "SUPER, M, exit"
           "SUPER, V, togglefloating"
+          "SUPER, F, fullscreen"
+          #workspace change with scroll
+          "SUPER, mouse_down, workspace, e-1"
+          "SUPER, mouse_up, workspace, e+1"
         ]
+        # map workspace switch and movetoworkspace over array of 1-9, courtesy of @Alyur
         ++ (map (i: ws (toString i) (toString i)) arr)
         ++ (map (i: mvtows (toString i) (toString i)) arr);
+
+      bindm = [
+        "SUPER, mouse:272, movewindow"
+        "SUPER, mouse:273, resizewindow"
+      ];
 
       decoration = {
         drop_shadow = "yes";
