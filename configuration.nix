@@ -67,6 +67,7 @@
     wireplumber.enable = true;
   };
 
+  services.openssh.enable = true;
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.leo = {
     isNormalUser = true;
@@ -77,11 +78,13 @@
       foot
       yazi
       starship
+      waybar-mpris
+      waybar
     ];
   };
 
   fonts.packages = with pkgs; [
-    intel-one-mono
+    jetbrains-mono
   ];
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
@@ -99,6 +102,8 @@
     cargo
     gcc
     nodejs
+    font-awesome
+    nerdfonts
   ];
 
   programs.dconf.enable = true;

@@ -23,7 +23,6 @@
       size = 28;
     };
   };
-  gtk.cursorTheme.size = "100";
 
   programs.home-manager.enable = true;
 }

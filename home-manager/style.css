@@ -1,0 +1,255 @@
+* {
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 13px;
+}
+
+
+window#waybar {
+  background-color: transparent;
+}
+
+#clock {
+  background: rgb(166, 227, 161);
+  background: radial-gradient(at center, #A6E3A1, #94E2D5, #A6E3A1);
+  color: #181825;
+  background-size: 400% 400%;
+  animation: gradient_f 5s linear infinite;
+  border-radius: 10px;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 7px;
+  margin-top: 3px;
+  margin-bottom: 1px;
+  margin-left: 10px;
+  margin-right: 1px;
+  font-weight: bolder;
+}
+
+#window {
+  color: #a6adc8;
+  font-weight: bold;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#custom-power {
+  background: #11111b;
+  color: #f38ba8;
+  border-radius: 10px;
+  padding-right: 13px;
+  padding-left: 10px;
+  margin-top: 3px;
+  margin-bottom: 1px;
+  margin-right: 10px;
+  margin-left: 3px;
+  font-weight: bolder;
+}
+
+#network {
+  background: #11111b;
+  color: #cdd6f4;
+  border-radius: 10px;
+  padding-right: 13px;
+  padding-left: 10px;
+  margin-top: 3px;
+  margin-bottom: 1px;
+  margin-left: 3px;
+  font-weight: bolder;
+}
+
+#bluetooth {
+  background: #11111b;
+  color: #cdd6f4;
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 3px;
+  margin-bottom: 1px;
+  font-weight: bolder;
+}
+
+
+#cpu {
+  margin-top: 3px;
+  padding-left: 13px;
+  border-radius: 10px 0px 0px 10px;
+  color: #181825;
+  background: #A6E3A1;
+  background: linear-gradient(270deg, #94E2D5, #A6E3A1);
+  background-size: 400% 400%;
+  animation: gradient_f 5s linear infinite;
+}
+
+#memory {
+  margin-top: 3px;
+  border-radius: 0px 0px 0px 0px;
+  color: #181825;
+  background: #A6E3A1;
+  background: radial-gradient(at center, #94E2D5, #A6E3A1);
+  background-size: 400% 400%;
+  animation: gradient_f 5s linear infinite;
+}
+
+#disk {
+  margin-top: 3px;
+  padding-right: 13px;
+  border-radius: 0px 10px 10px 0px;
+  color: #181825;
+  background: #A6E3A1;
+  background: linear-gradient(90deg, #94E2D5, #A6E3A1);
+  background-size: 400% 400%;
+  animation: gradient_f 5s linear infinite;
+
+}
+
+#temperature {
+  margin-top: 3px;
+  margin-right: 7px;
+  padding-right: 13px;
+  border-radius: 0px 10px 10px 0px;
+  color: #181825;
+  background: #A6E3A1;
+  background: linear-gradient(90deg, #94E2D5, #A6E3A1);
+  background-size: 400% 400%;
+  animation: gradient_f 5s linear infinite;
+
+}
+
+#wireplumber {
+  background: #11111b;
+  color: #cdd6f4;
+  border-radius: 10px;
+  padding-right: 13px;
+  padding-left: 10px;
+  margin-top: 3px;
+  margin-bottom: 1px;
+  margin-left: 10px;
+  margin-right: 5px;
+  font-weight: bolder;
+}
+
+#backlight {
+  background: #11111b;
+  color: #cdd6f4;
+  border-radius: 10px;
+  padding-right: 13px;
+  padding-left: 10px;
+  margin-top: 3px;
+  margin-bottom: 1px;
+  margin-right: 10px;
+  font-weight: bolder;
+}
+
+#cava {
+  background: rgb(166, 227, 161);
+  background: radial-gradient(at center, #A6E3A1, #94E2D5, #A6E3A1);
+  background-size: 400% 400%;
+  color: #181825;
+  animation: gradient_f 5s linear infinite;
+  border-radius: 10px;
+  padding: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 7px;
+  margin-top: 3px;
+  margin-bottom: 1px;
+  margin-left: 10px;
+  margin-right: 1px;
+  font-weight: bolder;
+}
+
+#mpris {
+  color: #a6adc8;
+  font-weight: bold;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+#workspaces button label {
+  color: #cdd6f4;
+  font-weight: bolder;
+}
+
+#workspaces button.active label {
+  color: #11111b;
+  font-weight: bolder;
+}
+
+#workspaces button:hover {
+  background: none;
+  border: none;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+#workspaces {
+  background-color: transparent;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-right: 10px;
+  margin-left: 25px;
+}
+
+#workspaces button {
+  background-color: #11111b;
+  border-color: #11111b;
+  border-radius: 15px;
+  margin-right: 10px;
+  padding: 8px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-weight: bolder;
+  color: #11111b;
+  transition: all 0.5s cubic-bezier(.55, -0.68, .48, 1.68);
+}
+
+#workspaces button.active {
+  padding-right: 20px;
+  padding-left: 20px;
+  background: radial-gradient(at center, #A6E3A1, #94E2D5, #A6E3A1);
+  background-size: 400% 400%;
+  animation: gradient_f 5s linear infinite;
+  transition: all 0.3s cubic-bezier(.55, -0.68, .48, 1.682);
+}
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 30%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient_f {
+  0% {
+    background-position: 0% 200%;
+  }
+
+  50% {
+    background-position: 200% 0%;
+  }
+
+  100% {
+    background-position: 400% 200%;
+  }
+}
+
+@keyframes gradient_f_nh {
+  0% {
+    background-position: 0% 200%;
+  }
+
+  100% {
+    background-position: 200% 200%;
+  }
+}
