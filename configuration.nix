@@ -78,14 +78,11 @@
       foot
       yazi
       starship
-      waybar-mpris
       waybar
+      pywal
     ];
   };
 
-  fonts.packages = with pkgs; [
-    jetbrains-mono
-  ];
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
@@ -103,7 +100,6 @@
     gcc
     nodejs
     font-awesome
-    nerdfonts
   ];
 
   programs.dconf.enable = true;

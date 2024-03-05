@@ -1,5 +1,7 @@
+@import "../../.cache/wal/colors-waybar.css";
+
 * {
-  font-family: JetBrainsMono Nerd Font;
+  font-family: Intel One Mono;
   font-size: 13px;
 }
 
@@ -9,9 +11,9 @@ window#waybar {
 }
 
 #clock {
-  background: rgb(166, 227, 161);
-  background: radial-gradient(at center, #A6E3A1, #94E2D5, #A6E3A1);
-  color: #181825;
+  background: @background;
+  background: radial-gradient(at center, @color1, @color2, @color1);
+  color: @background;
   background-size: 400% 400%;
   animation: gradient_f 5s linear infinite;
   border-radius: 10px;
@@ -27,7 +29,7 @@ window#waybar {
 }
 
 #window {
-  color: #a6adc8;
+  color: @foreground;
   font-weight: bold;
   border-radius: 20px;
   padding-left: 10px;
@@ -35,8 +37,8 @@ window#waybar {
 }
 
 #custom-power {
-  background: #11111b;
-  color: #f38ba8;
+  background: @background;
+  color: @color3;
   border-radius: 10px;
   padding-right: 13px;
   padding-left: 10px;
@@ -48,8 +50,8 @@ window#waybar {
 }
 
 #network {
-  background: #11111b;
-  color: #cdd6f4;
+  background: @background;
+  color: @color3;
   border-radius: 10px;
   padding-right: 13px;
   padding-left: 10px;
@@ -60,8 +62,8 @@ window#waybar {
 }
 
 #bluetooth {
-  background: #11111b;
-  color: #cdd6f4;
+  background: @background;
+  color: @color3;
   border-radius: 10px;
   padding-right: 10px;
   padding-left: 10px;
@@ -75,9 +77,9 @@ window#waybar {
   margin-top: 3px;
   padding-left: 13px;
   border-radius: 10px 0px 0px 10px;
-  color: #181825;
-  background: #A6E3A1;
-  background: linear-gradient(270deg, #94E2D5, #A6E3A1);
+  color: @background;
+  background: @background;
+  background: linear-gradient(270deg, @color1, @color2);
   background-size: 400% 400%;
   animation: gradient_f 5s linear infinite;
 }
@@ -85,9 +87,9 @@ window#waybar {
 #memory {
   margin-top: 3px;
   border-radius: 0px 0px 0px 0px;
-  color: #181825;
-  background: #A6E3A1;
-  background: radial-gradient(at center, #94E2D5, #A6E3A1);
+  color: @background;
+  background: @background;
+  background: radial-gradient(at center, @color1, @color2);
   background-size: 400% 400%;
   animation: gradient_f 5s linear infinite;
 }
@@ -96,30 +98,30 @@ window#waybar {
   margin-top: 3px;
   padding-right: 13px;
   border-radius: 0px 10px 10px 0px;
-  color: #181825;
-  background: #A6E3A1;
-  background: linear-gradient(90deg, #94E2D5, #A6E3A1);
+  color: @background;
+  background: @background;
+  background: linear-gradient(90deg, @color1, @color2);
   background-size: 400% 400%;
   animation: gradient_f 5s linear infinite;
 
 }
 
-#temperature {
+#battery {
   margin-top: 3px;
   margin-right: 7px;
   padding-right: 13px;
   border-radius: 0px 10px 10px 0px;
-  color: #181825;
-  background: #A6E3A1;
-  background: linear-gradient(90deg, #94E2D5, #A6E3A1);
+  color: @background;
+  background: @background;
+  background: linear-gradient(90deg, @color1, @color2);
   background-size: 400% 400%;
   animation: gradient_f 5s linear infinite;
 
 }
 
 #wireplumber {
-  background: #11111b;
-  color: #cdd6f4;
+  background: @background;
+  color: @color3;
   border-radius: 10px;
   padding-right: 13px;
   padding-left: 10px;
@@ -131,8 +133,8 @@ window#waybar {
 }
 
 #backlight {
-  background: #11111b;
-  color: #cdd6f4;
+  background: @background;
+  color: @color3;
   border-radius: 10px;
   padding-right: 13px;
   padding-left: 10px;
@@ -144,7 +146,7 @@ window#waybar {
 
 #cava {
   background: rgb(166, 227, 161);
-  background: radial-gradient(at center, #A6E3A1, #94E2D5, #A6E3A1);
+  background: radial-gradient(at center, @color1, @color2, @color1);
   background-size: 400% 400%;
   color: #181825;
   animation: gradient_f 5s linear infinite;
@@ -169,12 +171,14 @@ window#waybar {
 }
 
 #workspaces button label {
-  color: #cdd6f4;
+  background: none;
+  color: @color3;
   font-weight: bolder;
 }
 
 #workspaces button.active label {
-  color: #11111b;
+  background: none;
+  color: @background;
   font-weight: bolder;
 }
 
@@ -194,22 +198,20 @@ window#waybar {
 }
 
 #workspaces button {
-  background-color: #11111b;
-  border-color: #11111b;
+  background-color: @background;
   border-radius: 15px;
   margin-right: 10px;
-  padding: 8px;
   padding-top: 1px;
   padding-bottom: 1px;
   font-weight: bolder;
-  color: #11111b;
-  transition: all 0.5s cubic-bezier(.55, -0.68, .48, 1.68);
+  color: @background;
+  transition: all 0.4s cubic-bezier(.55, -0.68, .48, 1.68);
 }
 
 #workspaces button.active {
   padding-right: 20px;
   padding-left: 20px;
-  background: radial-gradient(at center, #A6E3A1, #94E2D5, #A6E3A1);
+  background: radial-gradient(at center, @color1, @color2, @color1);
   background-size: 400% 400%;
   animation: gradient_f 5s linear infinite;
   transition: all 0.3s cubic-bezier(.55, -0.68, .48, 1.682);
