@@ -23,7 +23,9 @@ label {
 }
 
 .workspaces button.focused {
-  border-bottom: 3px solid blue;
+  border: 3px solid;
+  border-image: linear-gradient(0deg, red , blue) 1;
+  animation: gradient_f 5s linear infinite;
 }
 
 .client-title {
@@ -37,4 +39,21 @@ label {
 levelbar block,
 highlight {
   min-height: 10px;
+}
+
+@keyframes gradient_f {
+	0% {
+		
+  border-image: linear-gradient(0deg, red, blue) 1;
+	}
+    50% {
+        
+  border-image: linear-gradient(180deg, red, blue) 1;
+
+    }
+	100% {
+		
+  border-image: linear-gradient(360deg, red, blue) 1;
+
+	}
 }
