@@ -44,21 +44,6 @@ function Bar(monitor = 0) {
   })
 }
 
-function test() {
-  return Widget.Window({
-    name: 'test',
-    anchor: ['bottom', 'left'],
-    child: Widget.Box({
-      spacing: 10,
-      child:
-        Widget.Label({
-          label: 'some text to show',
-          justification: 'left',
-        }),
-    }),
-  })
-}
-
 App.config({
   style: "./style.css",
   windows: [
