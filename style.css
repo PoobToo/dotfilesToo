@@ -1,0 +1,59 @@
+window.bar {
+  background-color: @theme_bg_color;
+  color: @theme_fg_color;
+}
+
+button {
+  min-width: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: transparent;
+}
+
+button:active {
+  background-color: @theme_selected_bg_color;
+}
+
+button:hover {
+  border-bottom: 3px solid @theme_fg_color;
+}
+
+label {
+  font-weight: bold;
+}
+
+.workspaces button.focused {
+  border: 3px solid;
+  border-image: linear-gradient(0deg, red , blue) 1;
+  animation: gradient_f 5s linear infinite;
+}
+
+.client-title {
+  color: @theme_selected_bg_color;
+}
+
+.notification {
+  color: yellow;
+}
+
+levelbar block,
+highlight {
+  min-height: 10px;
+}
+
+@keyframes gradient_f {
+	0% {
+		
+  border-image: linear-gradient(0deg, red, blue) 1;
+	}
+    50% {
+        
+  border-image: linear-gradient(180deg, red, blue) 1;
+
+    }
+	100% {
+		
+  border-image: linear-gradient(360deg, red, blue) 1;
+
+	}
+}
