@@ -144,24 +144,6 @@ window#waybar {
   font-weight: bolder;
 }
 
-#cava {
-  background: rgb(166, 227, 161);
-  background: radial-gradient(at center, @color1, @color2, @color1);
-  background-size: 400% 400%;
-  color: #181825;
-  animation: gradient_f 5s linear infinite;
-  border-radius: 10px;
-  padding: 10px;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  padding-right: 7px;
-  margin-top: 3px;
-  margin-bottom: 1px;
-  margin-left: 10px;
-  margin-right: 1px;
-  font-weight: bolder;
-}
-
 #mpris {
   color: #a6adc8;
   font-weight: bold;
