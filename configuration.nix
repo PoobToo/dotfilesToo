@@ -78,7 +78,6 @@
       foot
       yazi
       starship
-      waybar
       pywal
     ];
   };
@@ -99,7 +98,6 @@
     cargo
     gcc
     nodejs
-    font-awesome
   ];
 
   programs.dconf.enable = true;
