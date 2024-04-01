@@ -107,12 +107,6 @@
           tooltip = false;
         };
 
-        cava = {
-          cava_config = "/home/leo/.config/cava/config";
-          input_delay = 2;
-          format-icons = [ "▁" "▂" "▃" "▄" "▅" "▆" "▇" "█" ];
-        };
-
         mpris = {
           format = "{title} - {artist}";
           ignored-players = [ "firefox" ];
