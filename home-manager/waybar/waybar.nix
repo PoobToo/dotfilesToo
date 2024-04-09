@@ -13,7 +13,7 @@
         margin-top = 0;
         modules-left = [ "clock" "hyprland/window" ];
         modules-center = [ "hyprland/workspaces" ];
-        modules-right = [ "mpris" "cava" "wireplumber" "backlight" "cpu" "memory" "battery" "bluetooth" "network" "custom/power" ];
+        modules-right = [ "wireplumber" "backlight" "cpu" "memory" "battery" "bluetooth" "network" "custom/power" ];
         exclusive = true;
 
         "hyprland/workspaces" = {
@@ -107,13 +107,6 @@
           tooltip = false;
         };
 
-        mpris = {
-          format = "{title} - {artist}";
-          ignored-players = [ "firefox" ];
-          title-len = 15;
-          artist-len = 15;
-          interval = 1;
-        };
       };
     };
   };

@@ -8,7 +8,7 @@
 
       ];
 
-      monitor = ",prefferred,auto,1.2";
+      monitor = ",prefferred,auto,1.1";
 
       general = {
         layout = "dwindle";
@@ -65,6 +65,7 @@
         drop_shadow = "yes";
         shadow_range = 8;
         shadow_render_power = 2;
+        rounding = 10;
         "col.shadow" = "rgba(00000044)";
 
         dim_inactive = false;

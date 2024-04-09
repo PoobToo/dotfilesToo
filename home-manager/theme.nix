@@ -46,7 +46,7 @@ in
 
   gtk = {
     enable = true;
-    font.name = "IntelOneMono";
+    font.name = "JetBrainsMono";
     theme.name = gtk-theme;
     cursorTheme = {
       name = cursor-theme;

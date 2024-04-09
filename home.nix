@@ -6,6 +6,7 @@
     ./home-manager/theme.nix
     ./home-manager/waybar/waybar.nix
     ./home-manager/foot.nix
+    ./home-manager/bash.nix
   ];
 
   home = {
