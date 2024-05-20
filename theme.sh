@@ -1,7 +1,7 @@
 #!/bin/sh
  
 function load_wp() { 
-  swww img ~/Downloads/wallapper.jpg -t wipe --transition-duration .8 
+  swww img ~/Downloads/theother.jpg -t wipe --transition-duration .8 
 }
 
 killall waybar
@@ -9,6 +9,6 @@ killall waybar
 if ! swww query; then
   swww init
 fi
-wal -i ~/Downloads/wallapper.jpg
+wal -i ~/Downloads/theother.jpg
 load_wp
 waybar

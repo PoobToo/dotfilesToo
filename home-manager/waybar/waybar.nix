@@ -13,7 +13,7 @@
         margin-top = 0;
         modules-left = [ "clock" "hyprland/window" ];
         modules-center = [ "hyprland/workspaces" ];
-        modules-right = [ "wireplumber" "backlight" "cpu" "memory" "battery" "bluetooth" "network" "custom/power" ];
+        modules-right = [ "wireplumber" "backlight" "cpu" "memory" "battery" "bluetooth" "network" "group/powergroup" ];
         exclusive = true;
 
         "hyprland/workspaces" = {
@@ -29,7 +29,7 @@
           };
         };
         clock = {
-          format = "{:%H:%M}  ";
+          format = "{:%H:%M} ";
           format-alt = "{:%A, %B %d, %Y (%R)} ";
           tooltip = false;
           actions = {
@@ -41,9 +41,42 @@
           };
         };
 
+        "group/powergroup" = {
+          orientation = "inherit";
+          drawer = {
+            transition-duration = 500;
+            children-class = "drawer";
+            transition-left-to-right = false;
+          };
+          modules = [
+            "custom/power"
+            "custom/restart"
+            "custom/logout"
+            "custom/lock"
+          ];
+        };
+
+        "custom/lock" = {
+          format = "";
+          on-click = "";
+          tooltip = false;
+        };
+
+        "custom/logout" = {
+          format = "󰍃 ";
+          on-click = "hyprctl dispatch exit";
+          tooltip = false;
+        };
+
+        "custom/restart" = {
+          format = " ";
+          on-click = "shutdown -r now";
+          tooltip = false;
+        };
+
         "custom/power" = {
           format = "";
-          on-click = "wlogout";
+          on-click = "shutdown now";
           tooltip = false;
         };
 
@@ -105,6 +138,11 @@
           on-click = "qjackctl";
           format-icons = [ "" "" "" ];
           tooltip = false;
+        };
+
+        tray = {
+          icon-size = 21;
+          spacing = 10;
         };
 
       };

@@ -58,13 +58,16 @@
     auto-optimise-store = true;
   };
 
-  fonts.fonts = with pkgs; [
-    jetbrains-mono
+  programs.hyprland.enable = true;
+
+  environment.defaultPackages = with pkgs; [
+    neovim
+    librewolf
+    unstable.cliphist
+    pywal
+    unzip
+    hyprlock
   ];
- environment.defaultPackages = with pkgs; [
-	neovim
-librewolf
-]; 
 
   # FIXME: Add the rest of your current configuration
 
@@ -134,5 +137,5 @@ librewolf
   };
 
   # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
-  system.stateVersion = "23.11";
+  system.stateVersion = "22.11";
 }
