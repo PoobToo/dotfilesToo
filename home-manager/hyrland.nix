@@ -9,7 +9,7 @@
     extraConfig =
       ''
         exec-once = /nix/store/rv6z2vams8iy3f13nbp097p1ggm4ngk1-dbus-1.14.10/bin/dbus-update-activation-environment --systemd DISPLAY HYPRLAND_INSTANCE_SIGNATURE WAYLAND_DISPLAY XDG_CURRENT_DESKTOP && systemctl --user stop hyprland-session.target && systemctl --user start hyprland-session.target
-        source =~/.cache/wal/hyprland.conf
+        source = ~/.cache/wal/hyprland.conf
         animations {
           bezier=myBezier,0.05,0.9,0.1,1.05
           animation=windows, 1, 7, myBezier, slide
